@@ -1,6 +1,6 @@
 {
   "name": "short-error",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An error parser, to shorten errors in your console. Giving you only the lines you want.",
   "main": "lib/index.js",
   "license": "MIT",
