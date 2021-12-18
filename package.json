@@ -1,10 +1,17 @@
 {
-  "name": "error-shortener",
-  "version": "1.0.1",
+  "name": "short-error",
+  "version": "1.0.2",
   "description": "An error parser, to shorten errors in your console. Giving you only the lines you want.",
-  "main": "index.js",
+  "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js"
+    "build": "tsc"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@types/node": "^17.0.0",
+    "typescript": "^4.5.4"
   }
 }
