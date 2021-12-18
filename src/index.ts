@@ -22,7 +22,7 @@
 
     /**
     * An Error Handler to customize your console.logging,
-    * @param counter is how many lines in the console you allow, one by default.
+    * @param counter is how many chracters in the console you allow, one by default.
     * @param character the character to count for parsing, line breaks by default.
     */
     export const ErrorHandler = (func: () => any, counter?: number, character?: string) => {
