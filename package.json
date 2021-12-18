@@ -1,11 +1,10 @@
 {
-  "name": "building",
-  "version": "1.0.0",
-  "description": "A thing I will build.",
-  "main": "main.js",
+  "name": "error-shortener",
+  "version": "1.0.1",
+  "description": "An error parser, to shorten errors in your console. Giving you only the lines you want.",
+  "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "node main.js",
-    "build": "tsc main.ts"
+    "start": "node index.js"
   }
 }
